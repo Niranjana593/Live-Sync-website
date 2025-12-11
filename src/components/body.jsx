@@ -4,7 +4,7 @@ const Body = () => {
     return (
         <>
             <div className='text-white'>
-                <h1 className='text-3xl mt-10 ml-5'>Live Sync:</h1>
+                <h1 className='text-3xl mt-[66px] ml-5'>Live Sync:</h1>
                 <div className='flex'>
                     <div className='w-200 flex flex-col gap-5 ml-5 mt-4'>
                         <p className=''>Live-Sync is a fast and efficient desktop application that keeps your source and destination files perfectly synchronized in real time. Every time you make a change in your source folder, Live-Sync automatically updates the destination folder instantly, ensuring both locations stay up to date without any manual effort. </p>
@@ -69,6 +69,16 @@ const Body = () => {
 
                                     After starting the sync, you can open the source file in VS Code to edit the source file. Any Changes made to the source file will be automatically reflected in the destination file. To open the source file in VS Code, simply slick on the <strong className="underline">"Open In VS Code"</strong>button. This will redirect to VS code with the source file opened and ready to editing.
                                 </p>
+                                <div className="caution w-full bg-[#FFFFCC] text-black rounded-2xl shadow-[2px_3px_3px_2px_white]  border-2 mt-5 ">
+                                    <h1 className='text-xl flex gap-2 text-black pl-2 pt-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB271A"><path d="m40-120 440-760 440 760H40Zm138-80h604L480-720 178-200Zm302-40q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm-40-120h80v-200h-80v200Zm40-100Z"/></svg>Note!</h1>
+                                    <ol className='p-2'>
+                                        <li className='flex'><img src="right.png" alt="" />Make sure you have installed the VS Code in your System</li>
+                                        <div className='flex'>
+                                            <img className='h-[70%]' src="right.png" alt="" /> 
+                                        <li>Make sure you have enable the <strong>"code ."</strong>in your VS Code. If not <br />  <a target='_blank' className='underline bg-yellow-500' href="https://youtu.be/xLY6fqT2fIU?si=NpgQOmfdq4_zrJYp">Reffer this video</a> to get to know to enable the <strong>"code ."</strong> command</li>
+                                        </div>
+                                    </ol>
+                                </div>
                             </div>
                             <img className="shadow-[5px_5px_20px_3px_#ed8080] mr-20 w-[500] h-30" src="/vscode.jpg" alt="" />
                         </div>
