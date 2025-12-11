@@ -3,11 +3,11 @@ import React from 'react'
 const Installation = () => {
     return (
         <div className='text-white  mt-15 min-h-screen'>
-            <h1 className='text-3xl mt-10'>Installation Guide:</h1>
+            <h1 className='p-2  text-3xl mt-10 poppins'>Installation Guide:</h1>
             <div className="windows">
                 <h1 className='text-2xl pl-4 pt-3'>How to Install Live-Sync on your system:Step-by-Step Guide</h1>
                 <hr />
-                <div className='step1'>
+                <div className='step1 inter'>
                     <h1 className='text-xl ml-4 pl-4 mt-3 bg-amber-300 flex w-20 text-center border-2  '>Step 1</h1>
                     <p className='font-bold text-lg pl-4 pt-2 flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FDF3D0"><path d="m440-200 137-240H80v-80h497L440-760l440 280-440 280Z" /></svg>Download the Installer for Your Operating System</p>
                     <p className='pl-9 text-sm'>Navigate to the download section and select the installer that matches your operating system (Windows, macOS, or Linux). You will be redirected to the application’s GitHub Releases page.
@@ -16,7 +16,7 @@ const Installation = () => {
                         <img className='w-[60%] text' src="github.jpg" alt="" />
                     </div>
                 </div>
-                <div className="step2">
+                <div className="step2 inter">
                     <h1 className='text-xl ml-4 pl-4 mt-3 bg-amber-300 flex w-20 text-center border-2  '>Step 2</h1>
                     <p className='font-bold text-lg pl-4 pt-2 flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FDF3D0"><path d="m440-200 137-240H80v-80h497L440-760l440 280-440 280Z" /></svg>Download the Application File from the GitHub Release</p>
                     <p className='pl-9 text-sm'>In the Assets section of the GitHub release, click the primary file provided for your OS.
@@ -25,13 +25,13 @@ const Installation = () => {
                         <img className=' text' src="download.jpg" alt="" />
                     </div>
                 </div>
-                <div className="step2">
+                <div className="step2 inter">
                     <h1 className='text-xl ml-4 pl-4 mt-3 bg-amber-300 flex w-20 text-center border-2  '>Step 3</h1>
                     <p className='font-bold text-lg pl-4 pt-2 flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FDF3D0"><path d="m440-200 137-240H80v-80h497L440-760l440 280-440 280Z" /></svg>Extract the Downloaded ZIP File</p>
                     <p className='pl-9 text-sm'>Once the ZIP file is downloaded, extract all its contents to a folder on your system.
                         Ensure all files are extracted properly, as missing files may prevent the application from running.</p>
                 </div>
-                <div className="step4">
+                <div className="step4 inter">
                     <h1 className='text-xl ml-4 pl-4 mt-3 bg-amber-300 flex w-20 text-center border-2  '>Step 4</h1>
                     <p className='font-bold text-lg pl-4 pt-2 flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FDF3D0"><path d="m440-200 137-240H80v-80h497L440-760l440 280-440 280Z" /></svg>Launch the Application Based on Your OS</p>
                     <p className='pl-9 text-sm'>To start the application, open the appropriate file: .exe for Windows, .dmg for macOS, or .AppImage for Linux.
@@ -51,7 +51,7 @@ const Installation = () => {
                         </div>
                     </div>
                 </div>
-                <div className="step2">
+                <div className="step2 inter">
                     <h1 className='text-xl ml-4 pl-4 mt-3 bg-amber-300 flex w-20 text-center border-2  '>Step 5</h1>
                     <p className='font-bold text-lg pl-4 pt-2 flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FDF3D0"><path d="m440-200 137-240H80v-80h497L440-760l440 280-440 280Z" /></svg>Access the Application</p>
                     <p className='pl-9 text-sm'>After launching the executable, the application will open and be ready to use.

@@ -4,9 +4,9 @@ const Body = () => {
     return (
         <>
             <div className='text-white'>
-                <h1 className='text-3xl mt-[66px] ml-5'>Live Sync:</h1>
+                <h1 className='text-3xl mt-[66px] ml-5 poppins'>Live Sync:</h1>
                 <div className='flex'>
-                    <div className='w-200 flex flex-col gap-5 ml-5 mt-4'>
+                    <div className='w-200 flex flex-col gap-5 ml-5 mt-4 inter'>
                         <p className=''>Live-Sync is a fast and efficient desktop application that keeps your source and destination files perfectly synchronized in real time. Every time you make a change in your source folder, Live-Sync automatically updates the destination folder instantly, ensuring both locations stay up to date without any manual effort. </p>
                         <p>
                             Designed to eliminate repetitive tasks, Live-Sync removes the need to copy and paste files manually, reducing errors and saving valuable time. Whether you are managing project folders, maintaining multiple build directories, or working across different environments, Live-Sync provides a smooth and continuous workflow.
@@ -20,7 +20,7 @@ const Body = () => {
                 </div>
                 <div className='w-[100%] h-[0.5px] border-1 bg-blue-800 border-white mt-3'></div>
                 <h1 className='text-3xl mt-10 ml-5 '>Usage Guide:</h1>
-                <div className=' flex flex-col'>
+                <div className=' flex flex-col inter'>
                     <img className='m-auto mt-5 border-2 border-b-fuchsia-400 shadow-xl' width={700} src="source.jpg" alt="" />
                     <div className='flex justify-around'>
                         <section className='w-100 flex flex-col gap-3 ml-5 mt-10 mb-10 border-2 border-[#d1c8e3] p-[15px] shadow-[5px_5px_20px_3px_white]'>
@@ -72,10 +72,10 @@ const Body = () => {
                                 <div className="caution w-full bg-[#FFFFCC] text-black rounded-2xl shadow-[2px_3px_3px_2px_white]  border-2 mt-5 ">
                                     <h1 className='text-xl flex gap-2 text-black pl-2 pt-3'><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#BB271A"><path d="m40-120 440-760 440 760H40Zm138-80h604L480-720 178-200Zm302-40q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm-40-120h80v-200h-80v200Zm40-100Z"/></svg>Note!</h1>
                                     <ol className='p-2'>
-                                        <li className='flex'><img src="right.png" alt="" />Make sure you have installed the VS Code in your System</li>
+                                        <li className='flex'><img src="right.png" alt="" />Make sure you have installed VS Code in your System</li>
                                         <div className='flex'>
                                             <img className='h-[70%]' src="right.png" alt="" /> 
-                                        <li>Make sure you have enable the <strong>"code ."</strong>in your VS Code. If not <br />  <a target='_blank' className='underline bg-yellow-500' href="https://youtu.be/xLY6fqT2fIU?si=NpgQOmfdq4_zrJYp">Reffer this video</a> to get to know to enable the <strong>"code ."</strong> command</li>
+                                        <li>Make sure you have enabled the <strong>"code ."</strong> command in VS Code. If not  <a target='_blank' className='underline bg-yellow-500' href="https://youtu.be/xLY6fqT2fIU?si=NpgQOmfdq4_zrJYp">Reffer this video</a> to get to know how to enable the <strong>"code ."</strong> command</li>
                                         </div>
                                     </ol>
                                 </div>
