@@ -9,15 +9,16 @@ import Installation from './components/installation.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
+  const [show, setshow] = useState(false)
 
   return (
     <>
         <BrowserRouter>
-          <Nav />
-          <div className="absolute top-0 z-[-2]  w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
+          <Nav show={show} setshow={setshow} />
+          <div className="absolute top-0 z-[-2]  min-w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
             <Routes>
-              <Route path="/" element={<Body />} />
-              <Route path="/Installation" element={<Installation />} />
+              <Route path="/" element={<Body show={show} />} />
+              <Route path="/Installation" element={<Installation show={show} />} />
             </Routes>
             <Footer />
         </div>

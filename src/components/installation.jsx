@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Installation = () => {
+const Installation = ({show}) => {
     return (
-        <div className='text-white  mt-15 min-h-screen'>
+        <div className= {`text-white  ${show ? "mt-70":"mt-15"} min-h-screen`}>
             <h1 className='p-2  text-3xl mt-10 poppins'>Installation Guide:</h1>
             <div className="windows">
                 <h1 className='text-2xl pl-4 pt-3'>How to Install Live-Sync on your system:Step-by-Step Guide</h1>

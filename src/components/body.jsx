@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Body = () => {
+const Body = ({ show }) => {
     return (
         <>
-            <div className='text-white'>
+            <div className={`text-white ${show ? "mt-70" : "mt-0"}`}>
                 <h1 className='text-3xl mt-[66px] ml-5 poppins'>Live Sync:</h1>
-                <div className='flex'>
+                <div className='md:flex '>
                     <div className='w-200 flex flex-col gap-5 ml-5 mt-4 inter'>
                         <p className=''>Live-Sync is a fast and efficient desktop application that keeps your source and destination files perfectly synchronized in real time. Every time you make a change in your source folder, Live-Sync automatically updates the destination folder instantly, ensuring both locations stay up to date without any manual effort. </p>
                         <p>
@@ -16,10 +16,10 @@ const Body = () => {
                             With its simple setup, minimal resource usage, and reliable background syncing, Live-Sync makes file management effortless and helps you focus on what truly matters—your work.
                         </p>
                     </div>
-                    <img width={400} src="sync.png" alt="" />
+                    <img className='m-auto' width={400} src="sync.png" alt="" />
                 </div>
                 <div className='w-[100%] h-[0.5px] border-1 bg-blue-800 border-white mt-3'></div>
-                <h1 className='text-3xl mt-10 ml-5 '>Usage Guide:</h1>
+                <h1 className='text-3xl mt-10 md:ml-3 ml-5 '>Usage Guide:</h1>
                 <div className=' flex flex-col inter'>
                     <img className='m-auto mt-5 border-2 border-b-fuchsia-400 shadow-xl' width={700} src="source.jpg" alt="" />
                     <div className='flex justify-around'>
